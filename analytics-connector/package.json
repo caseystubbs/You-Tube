@@ -1,0 +1,20 @@
+{
+  "name": "fio-youtube-analytics-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/express": "latest",
+    "@modelcontextprotocol/node": "latest",
+    "@modelcontextprotocol/server": "latest",
+    "express": "latest",
+    "googleapis": "latest",
+    "zod": "latest"
+  }
+}
