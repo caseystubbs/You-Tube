@@ -2,10 +2,10 @@ FROM node:22-slim
 
 WORKDIR /app
 
-COPY analytics-connector/package.json ./
+COPY package.json ./
 RUN npm install --omit=dev
 
-COPY analytics-connector/server.js ./
+COPY server.js ./
 
 ENV NODE_ENV=production
 EXPOSE 3000
