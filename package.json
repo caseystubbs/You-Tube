@@ -1,6 +1,7 @@
 {
   "name": "fio-youtube-analytics-mcp",
   "version": "0.1.0",
+  "description": "Read-only YouTube Analytics MCP connector for engaged views, retention, traffic sources, and reach metrics.",
   "private": true,
   "type": "module",
   "engines": {
