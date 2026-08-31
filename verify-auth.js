@@ -39,11 +39,38 @@ async function ensureReachJob(auth) {
   }
 }
 
+async function launchDayReport({ youtube, analytics, videoId }) {
+  const videoResponse = await youtube.videos.list({ part: ['snippet'], id: [videoId] });
+  const video = videoResponse.data.items?.[0];
+  if (!video) throw new Error(`Video ${videoId} was not found.`);
+  const day = isoDate(video.snippet?.publishedAt);
+  const report = await analytics.reports.query({
+    ids: 'channel==MINE',
+    startDate: day,
+    endDate: day,
+    filters: `video==${videoId}`,
+    metrics: 'engagedViews,estimatedMinutesWatched,averageViewDuration,averageViewPercentage'
+  });
+  const metrics = rowsToObjects(report.data)[0] || {};
+  return {
+    videoId,
+    title: video.snippet?.title || videoId,
+    publishedAt: video.snippet?.publishedAt || null,
+    reportDay: day,
+    engagedViews: Number(metrics.engagedViews || 0),
+    estimatedMinutesWatched: Number(metrics.estimatedMinutesWatched || 0),
+    watchHours: Math.round((Number(metrics.estimatedMinutesWatched || 0) / 60) * 100) / 100,
+    averageViewDuration: metrics.averageViewDuration ?? null,
+    averageViewPercentage: metrics.averageViewPercentage ?? null
+  };
+}
+
 async function verifyYouTube() {
   const clientId = process.env.GOOGLE_CLIENT_ID;
   const clientSecret = process.env.GOOGLE_CLIENT_SECRET;
   const refreshToken = process.env.YOUTUBE_REFRESH_TOKEN;
   const smokeTestVideoId = process.env.YT_SMOKE_TEST_VIDEO_ID;
+  const compareVideoIds = (process.env.YT_COMPARE_VIDEO_IDS || '').split(',').map((v) => v.trim()).filter(Boolean);
   const baseUrl = process.env.APP_BASE_URL || 'https://youtube-analytics-mcp-production-d8e7.up.railway.app';
   const redirectUri = process.env.GOOGLE_REDIRECT_URI || `${baseUrl}/oauth2callback`;
 
@@ -56,6 +83,7 @@ async function verifyYouTube() {
     const auth = new google.auth.OAuth2(clientId, clientSecret, redirectUri);
     auth.setCredentials({ refresh_token: refreshToken });
     const youtube = google.youtube({ version: 'v3', auth });
+    const analytics = google.youtubeAnalytics({ version: 'v2', auth });
     const response = await youtube.channels.list({ part: ['snippet'], mine: true });
     const channel = response.data.items?.[0];
     if (!channel) {
@@ -66,6 +94,14 @@ async function verifyYouTube() {
 
     await ensureReachJob(auth);
 
+    if (compareVideoIds.length) {
+      const comparisons = [];
+      for (const videoId of compareVideoIds) {
+        comparisons.push(await launchDayReport({ youtube, analytics, videoId }));
+      }
+      console.log(`YouTube launch-day comparison: ${JSON.stringify(comparisons)}`);
+    }
+
     if (smokeTestVideoId) {
       const videoResponse = await youtube.videos.list({ part: ['snippet'], id: [smokeTestVideoId] });
       const video = videoResponse.data.items?.[0];
@@ -74,7 +110,6 @@ async function verifyYouTube() {
         return;
       }
 
-      const analytics = google.youtubeAnalytics({ version: 'v2', auth });
       const startDate = isoDate(video.snippet?.publishedAt);
       const endDate = isoDate(new Date());
       const report = await analytics.reports.query({
