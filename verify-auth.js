@@ -16,6 +16,29 @@ function rowsToObjects(data) {
   });
 }
 
+async function ensureReachJob(auth) {
+  try {
+    const reporting = google.youtubereporting({ version: 'v1', auth });
+    const jobsResp = await reporting.jobs.list({ includeSystemManaged: true });
+    let job = (jobsResp.data.jobs || []).find((j) => j.reportTypeId === 'channel_reach_basic_a1');
+    if (!job) {
+      const created = await reporting.jobs.create({
+        requestBody: {
+          reportTypeId: 'channel_reach_basic_a1',
+          name: 'FIO YouTube Reach Metrics'
+        }
+      });
+      job = created.data;
+      console.log(`YouTube reach reporting job created. Job ID: ${job.id}`);
+    } else {
+      console.log(`YouTube reach reporting job verified. Job ID: ${job.id}`);
+    }
+  } catch (error) {
+    const detail = error?.response?.data?.error?.message || error?.message || String(error);
+    console.error(`YouTube reach reporting setup failed: ${detail}`);
+  }
+}
+
 async function verifyYouTube() {
   const clientId = process.env.GOOGLE_CLIENT_ID;
   const clientSecret = process.env.GOOGLE_CLIENT_SECRET;
@@ -40,6 +63,8 @@ async function verifyYouTube() {
       return;
     }
     console.log(`YouTube authorization verified. Channel: ${channel.snippet?.title || channel.id}`);
+
+    await ensureReachJob(auth);
 
     if (smokeTestVideoId) {
       const videoResponse = await youtube.videos.list({ part: ['snippet'], id: [smokeTestVideoId] });
