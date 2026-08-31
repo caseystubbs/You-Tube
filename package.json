@@ -8,7 +8,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node verify-auth.js"
   },
   "dependencies": {
     "@modelcontextprotocol/express": "latest",
