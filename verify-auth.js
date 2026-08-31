@@ -4,6 +4,18 @@ function isoDate(value) {
   return new Date(value).toISOString().slice(0, 10);
 }
 
+function rowsToObjects(data) {
+  const headers = data.columnHeaders || [];
+  const rows = data.rows || [];
+  return rows.map((row) => {
+    const out = {};
+    headers.forEach((header, index) => {
+      out[header.name] = row[index] ?? null;
+    });
+    return out;
+  });
+}
+
 async function verifyYouTube() {
   const clientId = process.env.GOOGLE_CLIENT_ID;
   const clientSecret = process.env.GOOGLE_CLIENT_SECRET;
@@ -48,17 +60,34 @@ async function verifyYouTube() {
         metrics: 'engagedViews,estimatedMinutesWatched,averageViewDuration,averageViewPercentage,subscribersGained,subscribersLost,likes,comments'
       });
 
-      const headers = report.data.columnHeaders || [];
-      const row = report.data.rows?.[0] || [];
-      const metrics = {};
-      headers.forEach((header, index) => {
-        metrics[header.name] = row[index] ?? null;
-      });
+      const metrics = rowsToObjects(report.data)[0] || {};
       if (metrics.estimatedMinutesWatched != null) {
         metrics.watchHours = Math.round((Number(metrics.estimatedMinutesWatched) / 60) * 100) / 100;
       }
       console.log(`YouTube analytics smoke test verified. Video: ${video.snippet?.title || smokeTestVideoId}`);
       console.log(`YouTube analytics smoke metrics: ${JSON.stringify(metrics)}`);
+
+      const dailyReport = await analytics.reports.query({
+        ids: 'channel==MINE',
+        startDate,
+        endDate,
+        filters: `video==${smokeTestVideoId}`,
+        dimensions: 'day',
+        metrics: 'engagedViews,estimatedMinutesWatched,subscribersGained',
+        sort: 'day'
+      });
+      console.log(`YouTube analytics daily: ${JSON.stringify(rowsToObjects(dailyReport.data))}`);
+
+      const trafficReport = await analytics.reports.query({
+        ids: 'channel==MINE',
+        startDate,
+        endDate,
+        filters: `video==${smokeTestVideoId}`,
+        dimensions: 'insightTrafficSourceType',
+        metrics: 'engagedViews,estimatedMinutesWatched,averageViewDuration,averageViewPercentage',
+        sort: '-engagedViews'
+      });
+      console.log(`YouTube analytics traffic: ${JSON.stringify(rowsToObjects(trafficReport.data))}`);
     }
   } catch (error) {
     const detail = error?.response?.data?.error?.message || error?.message || String(error);
