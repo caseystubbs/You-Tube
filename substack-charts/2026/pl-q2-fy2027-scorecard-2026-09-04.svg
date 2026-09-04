@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Planet Labs Q2 fiscal 2027 operating scorecard</title>
+  <desc id="desc">Eight current Planet Labs financial and operating metrics reported on September 3, 2026.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07101f"/><stop offset="1" stop-color="#050913"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#102746"/><stop offset="1" stop-color="#091426"/></linearGradient>
+    <pattern id="grid" width="70" height="70" patternUnits="userSpaceOnUse"><path d="M70 0H0V70" fill="none" stroke="#4ea8ff" stroke-opacity=".08" stroke-width="2"/></pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000" flood-opacity=".4"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/><rect width="1600" height="900" fill="url(#grid)"/>
+  <circle cx="1450" cy="80" r="430" fill="#22d3ee" opacity=".05"/>
+  <text x="800" y="82" text-anchor="middle" fill="#22d3ee" font-family="Arial" font-size="30" font-weight="800" letter-spacing="7">PL BUSINESS SNAPSHOT</text>
+  <text x="800" y="150" text-anchor="middle" fill="#fff" font-family="Arial Black, Arial" font-size="58" font-weight="900">PLANET LABS Q2 FY2027 SCORECARD</text>
+  <text x="800" y="198" text-anchor="middle" fill="#9fb2cc" font-family="Arial" font-size="28" font-weight="600">Rapid growth and improving cash flow — with a demanding valuation</text>
+  <rect x="640" y="222" width="320" height="7" rx="3.5" fill="#f5a524"/>
+
+  <g font-family="Arial">
+    <g transform="translate(80 285)"><rect width="340" height="190" rx="24" fill="url(#card)" stroke="#22d3ee" stroke-width="3"/><text x="28" y="48" fill="#8ea9c9" font-size="20" font-weight="800">Q2 REVENUE</text><text x="28" y="118" fill="#fff" font-family="Arial Black, Arial" font-size="52" font-weight="900">$116.1M</text><text x="28" y="158" fill="#22e06b" font-size="21" font-weight="700">+58% year over year</text></g>
+    <g transform="translate(445 285)"><rect width="340" height="190" rx="24" fill="url(#card)" stroke="#22d3ee" stroke-width="3"/><text x="28" y="48" fill="#8ea9c9" font-size="20" font-weight="800">ADJUSTED EBITDA</text><text x="28" y="118" fill="#fff" font-family="Arial Black, Arial" font-size="52" font-weight="900">$13.9M</text><text x="28" y="158" fill="#22e06b" font-size="21" font-weight="700">Profitable quarter</text></g>
+    <g transform="translate(810 285)"><rect width="340" height="190" rx="24" fill="url(#card)" stroke="#28517c" stroke-width="3"/><text x="28" y="48" fill="#8ea9c9" font-size="20" font-weight="800">GAAP NET LOSS</text><text x="28" y="118" fill="#fff" font-family="Arial Black, Arial" font-size="52" font-weight="900">$9.4M</text><text x="28" y="158" fill="#22d3ee" font-size="21" font-weight="700">Improved from $22.6M</text></g>
+    <g transform="translate(1175 285)"><rect width="340" height="190" rx="24" fill="url(#card)" stroke="#22d3ee" stroke-width="3"/><text x="28" y="48" fill="#8ea9c9" font-size="20" font-weight="800">RECURRING ACV</text><text x="28" y="118" fill="#fff" font-family="Arial Black, Arial" font-size="54" font-weight="900">98%</text><text x="28" y="158" fill="#22e06b" font-size="21" font-weight="700">Subscription strength</text></g>
+    <g transform="translate(80 510)"><rect width="340" height="190" rx="24" fill="url(#card)" stroke="#22d3ee" stroke-width="3"/><text x="28" y="48" fill="#8ea9c9" font-size="20" font-weight="800">CASH + INVESTMENTS</text><text x="28" y="118" fill="#fff" font-family="Arial Black, Arial" font-size="50" font-weight="900">$865.4M</text><text x="28" y="158" fill="#22e06b" font-size="21" font-weight="700">Strong liquidity</text></g>
+    <g transform="translate(445 510)"><rect width="340" height="190" rx="24" fill="url(#card)" stroke="#22d3ee" stroke-width="3"/><text x="28" y="48" fill="#8ea9c9" font-size="20" font-weight="800">REMAINING CONTRACTS</text><text x="28" y="118" fill="#fff" font-family="Arial Black, Arial" font-size="50" font-weight="900">$753.1M</text><text x="28" y="158" fill="#22d3ee" font-size="21" font-weight="700">RPO at quarter end</text></g>
+    <g transform="translate(810 510)"><rect width="340" height="190" rx="24" fill="url(#card)" stroke="#22d3ee" stroke-width="3"/><text x="28" y="48" fill="#8ea9c9" font-size="20" font-weight="800">FY2027 REVENUE GUIDE</text><text x="28" y="118" fill="#fff" font-family="Arial Black, Arial" font-size="42" font-weight="900">$430M–$441M</text><text x="28" y="158" fill="#22e06b" font-size="21" font-weight="700">Midpoint: $435.5M</text></g>
+    <g transform="translate(1175 510)"><rect width="340" height="190" rx="24" fill="url(#card)" stroke="#f5a524" stroke-width="3"/><text x="28" y="48" fill="#8ea9c9" font-size="20" font-weight="800">FORWARD SALES MULTIPLE</text><text x="28" y="118" fill="#fff" font-family="Arial Black, Arial" font-size="52" font-weight="900">~15.3×</text><text x="28" y="158" fill="#f5a524" font-size="21" font-weight="700">At $18.35 per share</text></g>
+  </g>
+  <text x="80" y="825" fill="#fff" font-family="Arial" font-size="25" font-weight="800">FREEDOM INCOME OPTIONS</text>
+  <text x="1520" y="825" text-anchor="end" fill="#8ea9c9" font-family="Arial" font-size="23" font-weight="700">DATA THROUGH JULY 31, 2026</text>
+</svg>
