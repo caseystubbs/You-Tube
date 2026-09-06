@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">The week ahead market calendar</title>
+  <desc id="desc">Key market events for September 10 through September 16, 2026: producer inflation, Oracle earnings, consumer inflation, and the Federal Reserve meeting.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071225"/>
+      <stop offset="1" stop-color="#10284a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d79616"/>
+      <stop offset="0.5" stop-color="#ffd96a"/>
+      <stop offset="1" stop-color="#c98308"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g opacity="0.08" stroke="#5ca8ff" stroke-width="1">
+    <path d="M0 120H1600M0 240H1600M0 360H1600M0 480H1600M0 600H1600M0 720H1600"/>
+    <path d="M160 0V900M320 0V900M480 0V900M640 0V900M800 0V900M960 0V900M1120 0V900M1280 0V900M1440 0V900"/>
+  </g>
+  <text x="90" y="90" fill="#f7c94b" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="3">FREEDOM INCOME OPTIONS</text>
+  <text x="90" y="170" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="800">The Week Ahead</text>
+  <text x="90" y="220" fill="#a8bad2" font-family="Arial, Helvetica, sans-serif" font-size="27">The four events most likely to change the market setup</text>
+  <rect x="90" y="265" width="1420" height="8" rx="4" fill="url(#gold)"/>
+
+  <g>
+    <rect x="90" y="330" width="330" height="360" rx="26" fill="#122b4a" stroke="#2f5a86" stroke-width="2"/>
+    <circle cx="155" cy="400" r="34" fill="#f4bd38"/>
+    <text x="155" y="410" text-anchor="middle" fill="#081326" font-family="Arial" font-size="26" font-weight="900">1</text>
+    <text x="205" y="390" fill="#f7c94b" font-family="Arial" font-size="24" font-weight="800">THU. SEP. 10</text>
+    <text x="205" y="430" fill="#a8bad2" font-family="Arial" font-size="21">8:30 A.M. ET</text>
+    <text x="130" y="515" fill="#ffffff" font-family="Arial" font-size="42" font-weight="800">PPI</text>
+    <text x="130" y="558" fill="#dbe7f7" font-family="Arial" font-size="23">Producer inflation</text>
+    <text x="130" y="610" fill="#8fb3db" font-family="Arial" font-size="21">First test of whether</text>
+    <text x="130" y="642" fill="#8fb3db" font-family="Arial" font-size="21">price pressure is easing.</text>
+
+    <rect x="450" y="330" width="330" height="360" rx="26" fill="#122b4a" stroke="#2f5a86" stroke-width="2"/>
+    <circle cx="515" cy="400" r="34" fill="#f4bd38"/>
+    <text x="515" y="410" text-anchor="middle" fill="#081326" font-family="Arial" font-size="26" font-weight="900">2</text>
+    <text x="565" y="390" fill="#f7c94b" font-family="Arial" font-size="24" font-weight="800">THU. SEP. 10</text>
+    <text x="565" y="430" fill="#a8bad2" font-family="Arial" font-size="21">AFTER THE CLOSE</text>
+    <text x="490" y="515" fill="#ffffff" font-family="Arial" font-size="42" font-weight="800">ORACLE</text>
+    <text x="490" y="558" fill="#dbe7f7" font-family="Arial" font-size="23">Cloud &amp; AI demand</text>
+    <text x="490" y="610" fill="#8fb3db" font-family="Arial" font-size="21">A direct test of the</text>
+    <text x="490" y="642" fill="#8fb3db" font-family="Arial" font-size="21">AI-spending narrative.</text>
+
+    <rect x="810" y="330" width="330" height="360" rx="26" fill="#122b4a" stroke="#2f5a86" stroke-width="2"/>
+    <circle cx="875" cy="400" r="34" fill="#f4bd38"/>
+    <text x="875" y="410" text-anchor="middle" fill="#081326" font-family="Arial" font-size="26" font-weight="900">3</text>
+    <text x="925" y="390" fill="#f7c94b" font-family="Arial" font-size="24" font-weight="800">FRI. SEP. 11</text>
+    <text x="925" y="430" fill="#a8bad2" font-family="Arial" font-size="21">8:30 A.M. ET</text>
+    <text x="850" y="515" fill="#ffffff" font-family="Arial" font-size="42" font-weight="800">CPI</text>
+    <text x="850" y="558" fill="#dbe7f7" font-family="Arial" font-size="23">Consumer inflation</text>
+    <text x="850" y="610" fill="#8fb3db" font-family="Arial" font-size="21">The final major inflation</text>
+    <text x="850" y="642" fill="#8fb3db" font-family="Arial" font-size="21">read before the Fed.</text>
+
+    <rect x="1170" y="330" width="340" height="360" rx="26" fill="#122b4a" stroke="#2f5a86" stroke-width="2"/>
+    <circle cx="1235" cy="400" r="34" fill="#f4bd38"/>
+    <text x="1235" y="410" text-anchor="middle" fill="#081326" font-family="Arial" font-size="26" font-weight="900">4</text>
+    <text x="1285" y="390" fill="#f7c94b" font-family="Arial" font-size="24" font-weight="800">SEP. 15–16</text>
+    <text x="1285" y="430" fill="#a8bad2" font-family="Arial" font-size="21">NEXT ON DECK</text>
+    <text x="1210" y="515" fill="#ffffff" font-family="Arial" font-size="42" font-weight="800">THE FED</text>
+    <text x="1210" y="558" fill="#dbe7f7" font-family="Arial" font-size="23">Rates &amp; projections</text>
+    <text x="1210" y="610" fill="#8fb3db" font-family="Arial" font-size="21">The meeting includes new</text>
+    <text x="1210" y="642" fill="#8fb3db" font-family="Arial" font-size="21">economic projections.</text>
+  </g>
+
+  <rect x="90" y="745" width="1420" height="82" rx="18" fill="#0b1d35" stroke="#f0b72e" stroke-width="2"/>
+  <text x="800" y="796" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="28" font-weight="700">The market does not need a prediction. It needs confirmation.</text>
+</svg>
