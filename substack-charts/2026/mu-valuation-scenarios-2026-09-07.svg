@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Micron valuation scenarios</title>
+  <desc id="desc">Bear, base, and bull valuation scenarios for Micron compared with the September 4, 2026 share price.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#030813"/><stop offset="1" stop-color="#0a1b35"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff2a1"/><stop offset=".35" stop-color="#ffd32d"/><stop offset="1" stop-color="#c98200"/></linearGradient>
+  </defs>
+  <rect width="1600" height="1000" rx="0" fill="url(#bg)"/>
+  <text x="90" y="100" fill="#72cfff" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" letter-spacing="6">PAID RESEARCH • SEPTEMBER 7, 2026</text>
+  <text x="88" y="190" fill="#ffffff" font-family="Arial Black,Arial,sans-serif" font-size="70" font-weight="900">MU VALUATION SCENARIOS</text>
+  <text x="90" y="245" fill="#b9cbe0" font-family="Arial,Helvetica,sans-serif" font-size="30">Current price used: $1,016.59 • Scenario values are Casey's estimates, not analyst targets.</text>
+
+  <g transform="translate(90 330)">
+    <rect width="430" height="500" rx="34" fill="#101a28" stroke="#7f8b98" stroke-width="3"/>
+    <text x="215" y="80" text-anchor="middle" fill="#c8d0d8" font-family="Arial Black,Arial,sans-serif" font-size="54" font-weight="900">BEAR</text>
+    <text x="215" y="190" text-anchor="middle" fill="#ffffff" font-family="Arial Black,Arial,sans-serif" font-size="92" font-weight="900">$600</text>
+    <text x="215" y="245" text-anchor="middle" fill="#d7dde4" font-family="Arial,Helvetica,sans-serif" font-size="30">~41% downside</text>
+    <line x1="60" y1="285" x2="370" y2="285" stroke="#34495e" stroke-width="2"/>
+    <text x="70" y="345" fill="#d7dde4" font-family="Arial,Helvetica,sans-serif" font-size="28">Earnings: ~$100/share</text>
+    <text x="70" y="397" fill="#d7dde4" font-family="Arial,Helvetica,sans-serif" font-size="28">Multiple: 6×</text>
+    <text x="70" y="455" fill="#94a8bc" font-family="Arial,Helvetica,sans-serif" font-size="24">Pricing and margins normalize</text>
+  </g>
+
+  <g transform="translate(585 305)">
+    <rect width="430" height="550" rx="34" fill="#112b4f" stroke="url(#gold)" stroke-width="7"/>
+    <text x="215" y="85" text-anchor="middle" fill="#ffd32d" font-family="Arial Black,Arial,sans-serif" font-size="56" font-weight="900">BASE</text>
+    <text x="215" y="205" text-anchor="middle" fill="#ffffff" font-family="Arial Black,Arial,sans-serif" font-size="98" font-weight="900">$1,090</text>
+    <text x="215" y="264" text-anchor="middle" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="31">~7% upside</text>
+    <line x1="60" y1="308" x2="370" y2="308" stroke="#4f7398" stroke-width="2"/>
+    <text x="70" y="373" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="28">Earnings: ~$165/share</text>
+    <text x="70" y="425" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="28">Multiple: ~6.6×</text>
+    <text x="70" y="485" fill="#c6d7e9" font-family="Arial,Helvetica,sans-serif" font-size="24">Strong execution, no major rerating</text>
+  </g>
+
+  <g transform="translate(1080 330)">
+    <rect width="430" height="500" rx="34" fill="#10251f" stroke="#35c58c" stroke-width="3"/>
+    <text x="215" y="80" text-anchor="middle" fill="#6be0ae" font-family="Arial Black,Arial,sans-serif" font-size="54" font-weight="900">BULL</text>
+    <text x="215" y="190" text-anchor="middle" fill="#ffffff" font-family="Arial Black,Arial,sans-serif" font-size="92" font-weight="900">$1,665</text>
+    <text x="215" y="245" text-anchor="middle" fill="#d9fff0" font-family="Arial,Helvetica,sans-serif" font-size="30">~64% upside</text>
+    <line x1="60" y1="285" x2="370" y2="285" stroke="#285747" stroke-width="2"/>
+    <text x="70" y="345" fill="#d9fff0" font-family="Arial,Helvetica,sans-serif" font-size="28">Earnings: ~$185/share</text>
+    <text x="70" y="397" fill="#d9fff0" font-family="Arial,Helvetica,sans-serif" font-size="28">Multiple: 9×</text>
+    <text x="70" y="455" fill="#a9d9c5" font-family="Arial,Helvetica,sans-serif" font-size="24">Contracts reduce cycle discount</text>
+  </g>
+
+  <rect x="185" y="900" width="1230" height="3" fill="#335574"/>
+  <text x="800" y="950" text-anchor="middle" fill="#c5d2df" font-family="Arial,Helvetica,sans-serif" font-size="28">Framework threshold: base-case upside should generally exceed ~25% to qualify as growth-adjusted cheap.</text>
+</svg>
