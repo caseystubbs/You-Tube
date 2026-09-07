@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">AI Memory Boom — Too Late to Buy?</title>
+  <desc id="desc">Paid research cover with a dark technology background, glowing memory-chip illustration, and valuation question. No ticker or trade details are shown.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#020713"/><stop offset=".55" stop-color="#071a36"/><stop offset="1" stop-color="#02040a"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff1a0"/><stop offset=".35" stop-color="#ffd22e"/><stop offset="1" stop-color="#c98600"/></linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#173c71"/><stop offset="1" stop-color="#081629"/></linearGradient>
+    <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse"><path d="M72 0H0V72" fill="none" stroke="#3d7fbb" stroke-opacity=".13" stroke-width="2"/></pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/><rect width="1600" height="900" fill="url(#grid)"/>
+  <ellipse cx="1260" cy="420" rx="440" ry="420" fill="#0b79d0" opacity=".13"/><ellipse cx="300" cy="110" rx="380" ry="220" fill="#ffd22e" opacity=".06"/>
+  <text x="92" y="115" fill="#73cdfd" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" letter-spacing="8">PAID DEEP DIVE</text>
+  <text x="86" y="315" fill="#ffffff" font-family="Arial Black,Arial,sans-serif" font-size="144" font-weight="900">AI MEMORY</text>
+  <text x="86" y="468" fill="url(#gold)" font-family="Arial Black,Arial,sans-serif" font-size="154" font-weight="900" filter="url(#glow)">BOOM</text>
+  <rect x="92" y="520" width="690" height="11" rx="6" fill="url(#gold)"/>
+  <text x="92" y="622" fill="#ffffff" font-family="Arial Black,Arial,sans-serif" font-size="76" font-weight="900">TOO LATE TO BUY?</text>
+  <text x="96" y="692" fill="#b9cbe0" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="600">Growth is exploding. Valuation is the harder question.</text>
+  <g transform="translate(1010 205)" filter="url(#glow)">
+    <rect x="0" y="70" width="390" height="390" rx="48" fill="url(#chip)" stroke="#40b8ff" stroke-width="8"/>
+    <rect x="78" y="148" width="234" height="234" rx="28" fill="#071222" stroke="#ffd22e" stroke-width="7"/>
+    <path d="M195 160v210M90 265h210" stroke="#315d89" stroke-width="4" opacity=".65"/>
+    <text x="195" y="285" text-anchor="middle" fill="#ffffff" font-family="Arial Black,Arial,sans-serif" font-size="64" font-weight="900">HBM</text>
+    <g stroke="#40b8ff" stroke-width="10" stroke-linecap="round">
+      <path d="M55 30v55M125 30v55M195 30v55M265 30v55M335 30v55"/>
+      <path d="M55 445v55M125 445v55M195 445v55M265 445v55M335 445v55"/>
+      <path d="M-15 125h55M-15 195h55M-15 265h55M-15 335h55"/>
+      <path d="M350 125h55M350 195h55M350 265h55M350 335h55"/>
+    </g>
+  </g>
+  <path d="M925 720 C1040 680 1110 635 1190 590 S1360 500 1495 350" fill="none" stroke="#ffd22e" stroke-width="14" filter="url(#glow)"/>
+  <path d="M1450 355l55-18-18 55" fill="none" stroke="#ffd22e" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
