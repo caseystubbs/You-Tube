@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="100%" height="100%" fill="#0A0F1C"/>
+<style>
+  .title { font-family: Arial, Helvetica, sans-serif; font-weight:700; fill:#FFFFFF; }
+  .cyan { fill:#22D3EE; }
+  .green { fill:#22E06B; }
+  .orange { fill:#F5A524; }
+  .muted { fill:#94A3B8; }
+  .panel { fill:#111827; stroke:#334155; stroke-width:2; }
+  .small { font-family: Arial, Helvetica, sans-serif; fill:#94A3B8; }
+</style>
+<text x="80" y="90" font-size="44" class="title">OKLO: THE 77% RESET IS REAL — BUT SO IS THE VOLATILITY</text>
+<text x="80" y="135" font-size="24" class="small cyan">Selected daily closes • current TrendSpider reference levels • Sep. 8, 2026</text>
+<rect x="80" y="170" width="1440" height="570" rx="22" class="panel"/>
+<line x1="120" y1="685.2" x2="1500" y2="685.2" stroke="#22E06B" stroke-width="4" stroke-dasharray="12,12"/>
+<line x1="120" y1="662.9" x2="1500" y2="662.9" stroke="#F5A524" stroke-width="4" stroke-dasharray="12,12"/>
+<polyline points="120.0,574.3 218.6,388.8 317.1,280.2 415.7,530.5 514.3,579.7 612.9,479.0 711.4,606.2 810.0,658.3 908.6,565.7 1007.1,594.5 1105.7,644.9 1204.3,684.5 1302.9,649.7 1401.4,673.3 1500.0,662.5" fill="none" stroke="#22D3EE" stroke-width="7"/>
+<circle cx="1500.0" cy="662.5" r="11" fill="#FFFFFF"/>
+<text x="1450" y="646.9" font-size="26" class="title orange" text-anchor="end">$44.04 current</text>
+<text x="1450" y="669.2" font-size="26" class="title green" text-anchor="end">$36.61 52-week low</text>
+<text x="100" y="790" font-size="22" class="small">TrendSpider reference: 52w high $193.84 • 52w low $36.61 • next earnings Nov. 10, 2026.</text>
+<text x="100" y="828" font-size="22" class="small">Temporary technical graphic — replace with live TrendSpider share chart when available.</text>
+</svg>
