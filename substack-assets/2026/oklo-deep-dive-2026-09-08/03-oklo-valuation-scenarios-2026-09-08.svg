@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="100%" height="100%" fill="#0A0F1C"/>
+<style>
+  .title { font-family: Arial, Helvetica, sans-serif; font-weight:700; fill:#FFFFFF; }
+  .cyan { fill:#22D3EE; }
+  .green { fill:#22E06B; }
+  .orange { fill:#F5A524; }
+  .muted { fill:#94A3B8; }
+  .panel { fill:#111827; stroke:#334155; stroke-width:2; }
+  .small { font-family: Arial, Helvetica, sans-serif; fill:#94A3B8; }
+</style>
+<text x="80" y="90" font-size="46" class="title">MY OKLO VALUATION DOESN'T JUSTIFY CHASING $44</text>
+<text x="80" y="138" font-size="25" class="small cyan">6–12 month framework • base case delivers only ~4% upside from current price</text>
+<rect x="80" y="180" width="1440" height="570" rx="22" class="panel"/>
+<text x="120" y="265" font-size="30" class="title">Bear</text><rect x="360" y="225" width="390" height="54" rx="12" fill="#F5A524"/><text x="775" y="265" font-size="30" class="title">$24</text>
+<text x="120" y="355" font-size="30" class="title">Framework entry</text><rect x="360" y="315" width="598" height="54" rx="12" fill="#22E06B"/><text x="982" y="355" font-size="30" class="title">$36.80</text>
+<text x="120" y="445" font-size="30" class="title">Current</text><rect x="360" y="405" width="715" height="54" rx="12" fill="#4EA8FF"/><text x="1098" y="445" font-size="30" class="title">$44</text>
+<text x="120" y="535" font-size="30" class="title">Base</text><rect x="360" y="495" width="747" height="54" rx="12" fill="#22D3EE"/><text x="1130" y="535" font-size="30" class="title">$46</text>
+<text x="120" y="625" font-size="30" class="title">Bull</text><rect x="360" y="585" width="1218" height="54" rx="12" fill="#22E06B"/><text x="1490" y="625" font-size="30" class="title" text-anchor="end">$75</text>
+<text x="80" y="815" font-size="25" class="small">Framework threshold: ~25% base-case upside. $46 ÷ 1.25 ≈ $36.80 investigation area.</text>
+</svg>
