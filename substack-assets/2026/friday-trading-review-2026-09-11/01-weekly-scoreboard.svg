@@ -6,13 +6,13 @@
   <text x="130" y="295" fill="#f59e0b" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">PREMIUM COLLECTED</text>
   <text x="130" y="385" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="800">$1,350</text>
   <rect x="835" y="225" width="675" height="210" rx="24" fill="#111827" stroke="#334155" stroke-width="2"/>
-  <text x="875" y="295" fill="#f59e0b" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">REALIZED SPY PROFIT</text>
-  <text x="875" y="385" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="800">$697</text>
+  <text x="875" y="295" fill="#f59e0b" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">REALIZED PROFIT</text>
+  <text x="875" y="385" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="800">$1,023</text>
   <rect x="90" y="490" width="1420" height="250" rx="24" fill="#111827" stroke="#334155" stroke-width="2"/>
-  <text x="130" y="555" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">ASSIGNED POSITIONS</text>
-  <text x="130" y="620" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="34">PL: 2 puts assigned at $17.50 → 200 shares</text>
-  <text x="130" y="675" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="34">OKLO: 2 puts assigned at $43.00 → 200 shares</text>
-  <text x="835" y="620" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="34">ADBE: Oct. 23 $240 put remains open</text>
-  <text x="835" y="675" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="34">Premium collected on ADBE: $1,040</text>
+  <text x="130" y="555" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">KEY OUTCOMES</text>
+  <text x="130" y="620" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="34">MUU: 2 puts closed for +$326 realized</text>
+  <text x="130" y="675" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="34">PL + OKLO: 200 shares each assigned as planned</text>
+  <text x="835" y="620" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="34">SPY spreads: +$697 realized</text>
+  <text x="835" y="675" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="34">ADBE: Oct. 23 $240 put remains open</text>
   <text x="90" y="825" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Premium collected ≠ realized profit.</text>
 </svg>
