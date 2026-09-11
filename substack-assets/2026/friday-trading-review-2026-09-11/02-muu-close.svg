@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#0b1020"/>
+  <text x="100" y="125" fill="#f59e0b" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" letter-spacing="2">MUU PUT TRADE</text>
+  <text x="100" y="245" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800">SOLD AT $3.15</text>
+  <text x="100" y="350" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800">BOUGHT BACK AT $1.52</text>
+  <line x1="100" y1="415" x2="1500" y2="415" stroke="#334155" stroke-width="3"/>
+  <text x="100" y="540" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700">2 CONTRACTS · OCT. 16 $26 PUT</text>
+  <text x="100" y="650" fill="#f59e0b" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="800">+$326 REALIZED</text>
+  <text x="100" y="750" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="34">About 52% of the original premium captured before expiration.</text>
+  <text x="100" y="830" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="28">Opened Sept. 1 · Closed Sept. 8, 2026</text>
+</svg>
