@@ -2,11 +2,11 @@
   <rect width="1600" height="900" fill="#0b1020"/>
   <rect x="0" y="0" width="1600" height="18" fill="#f59e0b"/>
   <text x="110" y="145" fill="#f59e0b" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" letter-spacing="3">FRIDAY TRADING REVIEW</text>
-  <text x="110" y="285" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="800">I GOT ASSIGNED ON</text>
-  <text x="110" y="385" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="800">PL AND OKLO TODAY.</text>
-  <text x="110" y="500" fill="#f59e0b" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800">THAT WAS THE PLAN.</text>
-  <line x1="110" y1="560" x2="1490" y2="560" stroke="#334155" stroke-width="3"/>
-  <text x="110" y="650" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Two SPY trades closed for $697 in realized profit.</text>
-  <text x="110" y="730" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="34">Why assignment can be part of a position-building plan.</text>
+  <text x="110" y="285" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="800">WHAT ACTUALLY HAPPENED</text>
+  <text x="110" y="385" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="800">IN MY ACCOUNT THIS WEEK</text>
+  <line x1="110" y1="455" x2="1490" y2="455" stroke="#334155" stroke-width="3"/>
+  <text x="110" y="560" fill="#f59e0b" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="800">$1,023 REALIZED PROFIT</text>
+  <text x="110" y="650" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700">MUU closed. Two SPY trades closed. PL + OKLO assigned.</text>
+  <text x="110" y="730" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="34">And one Adobe put is still working.</text>
   <text x="110" y="820" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">CASEY STUBBS · FREEDOM INCOME OPTIONS</text>
 </svg>
