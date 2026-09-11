@@ -1,0 +1,9 @@
+Title: What Actually Happened in My Account This Week
+Subtitle: MUU closed for $326, two SPY spreads added $697, PL and OKLO were assigned, and Adobe is still open.
+Realized profit from closed trades in visible log: $1,023.
+Premium collected on PL, OKLO, and ADBE this week: $1,350.
+MUU: sold 2 Oct. 16 $26 puts at $3.15; bought back at $1.52; gross realized profit $326.
+SPY realized: $272 + $425 = $697.
+PL assigned: 200 shares, effective entry approx. $17.05 before fees.
+OKLO assigned: 200 shares, effective entry approx. $41.90 before fees.
+ADBE Oct. 23 $240 put remains open; $1,040 premium collected is not yet a finished result.
