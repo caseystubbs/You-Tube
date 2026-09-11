@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#0b1020"/>
+  <text x="100" y="125" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800">ASSIGNED — BY DESIGN</text>
+  <rect x="100" y="205" width="660" height="420" rx="24" fill="#111827" stroke="#334155" stroke-width="2"/>
+  <text x="145" y="275" fill="#f59e0b" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">PL</text>
+  <text x="145" y="355" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="800">200 SHARES</text>
+  <text x="145" y="430" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="34">Strike: $17.50</text>
+  <text x="145" y="490" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="34">Premium: $0.45</text>
+  <text x="145" y="565" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">Effective entry: $17.05</text>
+  <rect x="840" y="205" width="660" height="420" rx="24" fill="#111827" stroke="#334155" stroke-width="2"/>
+  <text x="885" y="275" fill="#f59e0b" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">OKLO</text>
+  <text x="885" y="355" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="800">200 SHARES</text>
+  <text x="885" y="430" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="34">Strike: $43.00</text>
+  <text x="885" y="490" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="34">Premium: $1.10</text>
+  <text x="885" y="565" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">Effective entry: $41.90</text>
+  <text x="100" y="735" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">The key question was decided before the trade:</text>
+  <text x="100" y="815" fill="#f59e0b" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="800">WAS I WILLING TO OWN THE SHARES?</text>
+</svg>
