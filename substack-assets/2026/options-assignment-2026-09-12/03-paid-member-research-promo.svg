@@ -1,11 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
-  <rect width="1600" height="700" fill="#0A0F1C"/>
-  <rect x="0" y="0" width="1600" height="12" fill="#22D3EE"/>
-  <text x="800" y="120" text-anchor="middle" fill="#22D3EE" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="800" letter-spacing="4">PAID MEMBER RESEARCH</text>
-  <text x="800" y="245" text-anchor="middle" fill="#FFFFFF" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="70" font-weight="900">GO DEEPER THAN THE PUBLIC POST</text>
-  <text x="800" y="320" text-anchor="middle" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="33">Company research • valuation work • trade ideas • follow-up analysis</text>
-  <rect x="485" y="395" width="630" height="92" rx="18" fill="#111827" stroke="#22D3EE" stroke-width="3"/>
-  <text x="800" y="452" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800">SEE WHAT I’M INVESTIGATING NEXT →</text>
-  <image href="https://freedomincomeoptions.com/static/fio-light-logo.png" x="650" y="540" width="300" height="95" preserveAspectRatio="xMidYMid meet"/>
-  <text x="800" y="670" text-anchor="middle" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="20">FOR EDUCATIONAL PURPOSES ONLY. NOT FINANCIAL ADVICE.</text>
-</svg>
+<rect width="1600" height="700" fill="#0A0F1C"/><rect width="1600" height="12" fill="#22D3EE"/>
+<text x="800" y="105" text-anchor="middle" fill="#22D3EE" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="800" letter-spacing="4">PAID MEMBER RESEARCH</text>
+<text x="800" y="205" text-anchor="middle" fill="#fff" font-family="Arial Black,Arial,Helvetica,sans-serif" font-size="66" font-weight="900">GO DEEPER THAN THE PUBLIC POST</text>
+<text x="800" y="270" text-anchor="middle" fill="#94A3B8" font-family="Arial,Helvetica,sans-serif" font-size="31">Company research, valuation work, trade ideas and follow-up analysis</text>
+<g font-family="Arial,Helvetica,sans-serif">
+<rect x="190" y="340" width="350" height="120" rx="20" fill="#111827" stroke="#334155" stroke-width="3"/><text x="365" y="390" text-anchor="middle" fill="#22D3EE" font-size="25" font-weight="800">RESEARCH</text><text x="365" y="430" text-anchor="middle" fill="#fff" font-size="28" font-weight="800">THE BUSINESS</text>
+<rect x="625" y="340" width="350" height="120" rx="20" fill="#111827" stroke="#334155" stroke-width="3"/><text x="800" y="390" text-anchor="middle" fill="#F5A524" font-size="25" font-weight="800">VALUATION</text><text x="800" y="430" text-anchor="middle" fill="#fff" font-size="28" font-weight="800">WHAT IS IT WORTH?</text>
+<rect x="1060" y="340" width="350" height="120" rx="20" fill="#111827" stroke="#334155" stroke-width="3"/><text x="1235" y="390" text-anchor="middle" fill="#22E06B" font-size="25" font-weight="800">TRADE PLAN</text><text x="1235" y="430" text-anchor="middle" fill="#fff" font-size="28" font-weight="800">RISK + FOLLOW-UP</text>
+<rect x="430" y="510" width="740" height="92" rx="18" fill="#111827" stroke="#22D3EE" stroke-width="3"/><text x="800" y="568" text-anchor="middle" fill="#fff" font-size="34" font-weight="900">SEE WHAT I’M INVESTIGATING NEXT →</text>
+<text x="800" y="650" text-anchor="middle" fill="#F5A524" font-size="25" font-weight="800">FREEDOM INCOME OPTIONS</text>
+<text x="800" y="680" text-anchor="middle" fill="#475569" font-size="18">FOR EDUCATIONAL PURPOSES ONLY. NOT FINANCIAL ADVICE.</text>
+</g></svg>
