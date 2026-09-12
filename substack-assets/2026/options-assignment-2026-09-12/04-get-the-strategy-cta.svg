@@ -1,18 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
-  <rect width="1600" height="700" fill="#0A0F1C"/>
-  <rect x="0" y="0" width="1600" height="12" fill="#F5A524"/>
-  <text x="800" y="118" text-anchor="middle" fill="#F5A524" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" letter-spacing="4">18 MONTHS OF DOCUMENTED OPTIONS TRADING</text>
-  <text x="800" y="245" text-anchor="middle" fill="#FFFFFF" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="82" font-weight="900">GET THE STRATEGY</text>
-  <text x="800" y="325" text-anchor="middle" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="34">Rules. Real trades. Winners. Losers. Assignments. Lessons.</text>
-  <g transform="translate(260,395)" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800">
-    <text x="0" y="0" fill="#22E06B">RESEARCH</text><text x="175" y="0" fill="#475569">→</text>
-    <text x="220" y="0" fill="#4EA8FF">STRUCTURE</text><text x="410" y="0" fill="#475569">→</text>
-    <text x="455" y="0" fill="#F5A524">RISK</text><text x="565" y="0" fill="#475569">→</text>
-    <text x="610" y="0" fill="#FFFFFF">MANAGEMENT</text><text x="825" y="0" fill="#475569">→</text>
-    <text x="870" y="0" fill="#22D3EE">REVIEW</text>
-  </g>
-  <rect x="520" y="465" width="560" height="82" rx="16" fill="#F5A524"/>
-  <text x="800" y="518" text-anchor="middle" fill="#0A0F1C" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="900">SEE THE SYSTEM BEHIND THE TRADES →</text>
-  <image href="https://freedomincomeoptions.com/static/fio-light-logo.png" x="670" y="568" width="260" height="82" preserveAspectRatio="xMidYMid meet"/>
-  <text x="800" y="680" text-anchor="middle" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="20">FOR EDUCATIONAL PURPOSES ONLY. NOT FINANCIAL ADVICE.</text>
-</svg>
+<rect width="1600" height="700" fill="#0A0F1C"/><rect width="1600" height="12" fill="#F5A524"/>
+<text x="800" y="105" text-anchor="middle" fill="#F5A524" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="800" letter-spacing="4">18 MONTHS OF DOCUMENTED OPTIONS TRADING</text>
+<text x="800" y="215" text-anchor="middle" fill="#fff" font-family="Arial Black,Arial,Helvetica,sans-serif" font-size="80" font-weight="900">GET THE STRATEGY</text>
+<text x="800" y="290" text-anchor="middle" fill="#CBD5E1" font-family="Arial,Helvetica,sans-serif" font-size="33">Rules. Real trades. Winners. Losers. Assignments. Lessons.</text>
+<g font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="800">
+<text x="220" y="395" fill="#22E06B">RESEARCH</text><text x="390" y="395" fill="#475569">→</text><text x="450" y="395" fill="#4EA8FF">STRUCTURE</text><text x="650" y="395" fill="#475569">→</text><text x="710" y="395" fill="#F5A524">RISK</text><text x="805" y="395" fill="#475569">→</text><text x="865" y="395" fill="#fff">MANAGEMENT</text><text x="1090" y="395" fill="#475569">→</text><text x="1150" y="395" fill="#22D3EE">REVIEW</text>
+<rect x="455" y="465" width="690" height="88" rx="17" fill="#F5A524"/><text x="800" y="520" text-anchor="middle" fill="#0A0F1C" font-size="32" font-weight="900">SEE THE SYSTEM BEHIND THE TRADES →</text>
+<text x="800" y="620" text-anchor="middle" fill="#F5A524" font-size="25" font-weight="800">FREEDOM INCOME OPTIONS</text>
+<text x="800" y="665" text-anchor="middle" fill="#475569" font-size="18">FOR EDUCATIONAL PURPOSES ONLY. NOT FINANCIAL ADVICE.</text>
+</g></svg>
