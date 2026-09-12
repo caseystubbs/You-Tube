@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
+  <rect width="1600" height="700" fill="#0A0F1C"/>
+  <rect x="0" y="0" width="1600" height="12" fill="#22D3EE"/>
+  <text x="800" y="120" text-anchor="middle" fill="#22D3EE" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="800" letter-spacing="4">PAID MEMBER RESEARCH</text>
+  <text x="800" y="245" text-anchor="middle" fill="#FFFFFF" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="70" font-weight="900">GO DEEPER THAN THE PUBLIC POST</text>
+  <text x="800" y="320" text-anchor="middle" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="33">Company research • valuation work • trade ideas • follow-up analysis</text>
+  <rect x="485" y="395" width="630" height="92" rx="18" fill="#111827" stroke="#22D3EE" stroke-width="3"/>
+  <text x="800" y="452" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800">SEE WHAT I’M INVESTIGATING NEXT →</text>
+  <image href="https://freedomincomeoptions.com/static/fio-light-logo.png" x="650" y="540" width="300" height="95" preserveAspectRatio="xMidYMid meet"/>
+  <text x="800" y="670" text-anchor="middle" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="20">FOR EDUCATIONAL PURPOSES ONLY. NOT FINANCIAL ADVICE.</text>
+</svg>
