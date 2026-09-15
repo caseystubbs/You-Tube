@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
+  <rect width="1600" height="700" fill="#0A0F1C"/>
+  <rect width="1600" height="12" fill="#22D3EE"/>
+  <text x="100" y="92" fill="#22D3EE" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="800" letter-spacing="4">PAID MEMBER PREVIEW</text>
+  <text x="100" y="172" fill="#F8FAFC" font-family="Arial Black,Arial,Helvetica,sans-serif" font-size="64" font-weight="900">TODAY: THE PROCESS</text>
+  <text x="100" y="255" fill="#F5A524" font-family="Arial Black,Arial,Helvetica,sans-serif" font-size="75" font-weight="900">TOMORROW: THE POSITION</text>
+  <text x="100" y="328" fill="#CBD5E1" font-family="Arial,Helvetica,sans-serif" font-size="30">I plan to open a new position using the same research</text>
+  <text x="100" y="370" fill="#CBD5E1" font-family="Arial,Helvetica,sans-serif" font-size="30">and valuation process I’m teaching here.</text>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <rect x="100" y="440" width="415" height="120" rx="18" fill="#111827" stroke="#334155" stroke-width="2"/>
+    <text x="128" y="485" fill="#4EA8FF" font-size="24" font-weight="800">COMPANY</text><text x="128" y="530" fill="#F8FAFC" font-size="27" font-weight="800">WHY IT PASSED</text>
+    <rect x="590" y="440" width="415" height="120" rx="18" fill="#111827" stroke="#334155" stroke-width="2"/>
+    <text x="618" y="485" fill="#F5A524" font-size="24" font-weight="800">VALUATION</text><text x="618" y="530" fill="#F8FAFC" font-size="27" font-weight="800">WHAT I THINK IT’S WORTH</text>
+    <rect x="1080" y="440" width="415" height="120" rx="18" fill="#111827" stroke="#334155" stroke-width="2"/>
+    <text x="1108" y="485" fill="#22E06B" font-size="24" font-weight="800">PLAN</text><text x="1108" y="530" fill="#F8FAFC" font-size="27" font-weight="800">ENTRY • SIZE • INVALIDATION</text>
+  </g>
+  <rect x="455" y="603" width="690" height="72" rx="16" fill="#F5A524"/>
+  <text x="800" y="650" text-anchor="middle" fill="#0A0F1C" font-family="Arial Black,Arial,Helvetica,sans-serif" font-size="30" font-weight="900">GET TOMORROW’S POSITION</text>
+</svg>
