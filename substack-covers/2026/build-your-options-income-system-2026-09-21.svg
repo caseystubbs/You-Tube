@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#081522"/>
+    <stop offset="60%" stop-color="#0d2435"/>
+    <stop offset="100%" stop-color="#173d53"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#f3c85b"/>
+    <stop offset="100%" stop-color="#d89a2b"/>
+  </linearGradient>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<g opacity=".16" stroke="#4cc6d9" stroke-width="2" fill="none">
+  <path d="M0 655 C120 610 200 700 300 650 S480 575 590 620 S780 520 900 575 S1100 450 1250 520 S1450 410 1600 455"/>
+  <path d="M0 710 C160 675 260 760 390 700 S650 640 760 675 S990 595 1140 625 S1410 535 1600 565"/>
+</g>
+<g opacity=".22" fill="#ffffff">
+  <circle cx="1110" cy="190" r="3"/><circle cx="1175" cy="145" r="3"/><circle cx="1240" cy="230" r="3"/><circle cx="1300" cy="180" r="3"/>
+</g>
+<text x="110" y="105" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="34" letter-spacing="9">FREEDOM INCOME OPTIONS</text>
+<rect x="110" y="140" width="180" height="4" fill="url(#gold)"/>
+<text x="110" y="285" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="94" font-weight="700">BUILD YOUR OPTIONS</text>
+<text x="110" y="395" fill="url(#gold)" font-family="Arial, Helvetica, sans-serif" font-size="112" font-weight="800">INCOME SYSTEM</text>
+<text x="115" y="475" fill="#dce7ee" font-family="Arial, Helvetica, sans-serif" font-size="36">Stop rebuilding your strategy on every trade.</text>
+<g transform="translate(1120 315)">
+  <rect x="0" y="0" width="315" height="245" rx="24" fill="#07111b" opacity=".88" stroke="#d9a735" stroke-width="2"/>
+  <text x="34" y="58" fill="#f3c85b" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">THE SYSTEM</text>
+  <text x="34" y="108" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="26">Know the edge</text>
+  <text x="34" y="148" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="26">Reduce decisions</text>
+  <text x="34" y="188" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="26">Protect the edge</text>
+  <text x="34" y="228" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="26">Track &amp; improve</text>
+</g>
+<g transform="translate(110 620)">
+  <rect x="0" y="0" width="1375" height="145" rx="20" fill="#ffffff" opacity=".06" stroke="#ffffff" stroke-opacity=".12"/>
+  <text x="40" y="57" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700">LIVE WEDNESDAY • SEPTEMBER 23, 2026 • 11:00 AM ET</text>
+  <text x="40" y="108" fill="#f3c85b" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700">FreedomIncomeOptions.com/register</text>
+</g>
+<text x="110" y="835" fill="#90a9b8" font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing="4">EXPECTANCY • RULES • RISK • EXECUTION • TRACKING</text>
+</svg>
